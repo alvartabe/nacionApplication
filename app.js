@@ -19,7 +19,7 @@ app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
 
 
-// uncomment after placin yourck favicon in /public
+// uncomment after placsin yourck favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
 app.use(logger('dev'));
 app.use(bodyParser.json());
